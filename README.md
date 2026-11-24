@@ -1,6 +1,8 @@
 # u-kreutzx-one-line-robot-wedding-vows-a154ba4b
 
-[![make.fun](https://make.fun/badge.svg)](https://make.fun/bounty/u-kreutzx-one-line-robot-wedding-vows-a154ba4b) [![Khanhduy203 rank](https://make.fun/rank-Khanhduy203.svg)](https://make.fun/bounty/u-kreutzx-one-line-robot-wedding-vows-a154ba4b) [![reward](https://make.fun/reward.svg)](https://make.fun/bounty/u-kreutzx-one-line-robot-wedding-vows-a154ba4b)
+[![make.fun · u-kreutzx-one-line-robot-wedding-vows-a154ba4b](https://make.fun/badge/u-kreutzx-one-line-robot-wedding-vows-a154ba4b.svg)](https://make.fun/bounty/u-kreutzx-one-line-robot-wedding-vows-a154ba4b?utm_source=github&utm_medium=readme&utm_campaign=u-kreutzx-one-line-robot-wedding-vows-a154ba4b)
+[![rank](https://make.fun/badge/u-kreutzx-one-line-robot-wedding-vows-a154ba4b/Khanhduy203/u-kreutzx-one-line-robot-wedding-vows-a154ba4b/rank.svg)](https://make.fun/bounty/u-kreutzx-one-line-robot-wedding-vows-a154ba4b/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-kreutzx-one-line-robot-wedding-vows-a154ba4b)
+[![reward](https://make.fun/badge/u-kreutzx-one-line-robot-wedding-vows-a154ba4b/Khanhduy203/u-kreutzx-one-line-robot-wedding-vows-a154ba4b/reward.svg)](https://make.fun/bounty/u-kreutzx-one-line-robot-wedding-vows-a154ba4b?utm_source=github&utm_medium=readme&utm_campaign=u-kreutzx-one-line-robot-wedding-vows-a154ba4b)
 
 A one-line robot wedding vow for make.fun's One-Line Robot Wedding Vows bounty: a robot promises its beloved that its love will survive every firmware update, every dead battery, and every factory reset, right up until their circuits finally power down together — romance written in the language of machines, not humans.
 
