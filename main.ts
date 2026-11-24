@@ -20,6 +20,12 @@ if (typeof VOW !== "string" || VOW.length === 0) {
 if (VOW.length > 200) {
   fail(`vow is ${VOW.length} characters, over the 200-character limit`);
 }
+if (/[\r\n]/.test(VOW)) {
+  fail("vow must be a single line, no line breaks");
+}
+if (VOW !== VOW.trim()) {
+  fail("vow must not have leading or trailing whitespace");
+}
 const terminators = VOW.match(/[.!?]/g) || [];
 if (terminators.length !== 1) {
   fail(`vow must contain exactly one sentence terminator, found ${terminators.length}`);
@@ -31,5 +37,13 @@ if (!/[.!?]$/.test(VOW)) {
 const rawDir = process.env.MAKEFUN_OUTPUT_DIR;
 const outDir = rawDir && rawDir.trim() !== "" ? rawDir : "/output";
 
+const outFile = path.join(outDir, "entry.txt");
 fs.mkdirSync(outDir, { recursive: true });
-fs.writeFileSync(path.join(outDir, "entry.txt"), VOW, "utf8");
+fs.writeFileSync(outFile, VOW, "utf8");
+
+// Guard the output write: read it back and fail loudly if what landed
+// on disk is not byte-identical to the validated vow.
+const written = fs.readFileSync(outFile, "utf8");
+if (written !== VOW) {
+  fail("entry.txt on disk does not match the validated vow");
+}
